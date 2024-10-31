@@ -14,7 +14,7 @@ The program randomly selects 10 digits from the dataset (one of each 0-9), train
 
 > 0.179346 EPOCH OVER!   0.9 23 1
 
-The first value is that of the cost function. The second (0.9) represents the models current accuracy, the third is the number of times it has trained on the current ten digits and the fourth is the number of times new digits have been selected.
+The first value is that of the cost function. The second (0.9) represents the models current accuracy for the currently chosen digits, the third is the number of times it has trained on the current ten digits and the fourth is the number of times new digits have been selected.
 
 # Proof that it is learning:
 
