@@ -19,3 +19,7 @@ The first value is that of the cost function. The second (0.9) represents the mo
 # Proof that it is learning:
 
 Initially, the models accuracy on a new set of digits will be quite low, but as it learns, its starting accuracy with digits its never seen will increase. 
+
+# Areas of improvement: 
+
+The backpropogation algorithm is hard coded for a 3 layer network; I was working on a programmatic apporach for more layers but ran out of time :(
